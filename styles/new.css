@@ -1,0 +1,71 @@
+body p,div {
+  background-color: #FFFFFF; 
+  background-image: url('images/11.png');
+  	width: 600px;
+	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
+	border: 10px white;
+	opacity: 0.7;
+    filter: alpha(Opacity=70);
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+html {
+font-family: 'Russo One', sans-serif; 
+
+}
+
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+p {
+	text-align: center;
+}
+
+#mySubmit {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #FF0000 0%, #F4A460 51%, #FF0000 100%);
+  background-size: 200% auto;
+ 
+  transition: .5s;
+  
+}
+#mySubmit:hover
+{
+	background-image: linear-gradient(to right, #FF0000 0%, #F4A460 51%, #FF0000 100%);
+}
+
+input {
+	width: 300px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+}
+
+.block {
+	text-align: left;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
